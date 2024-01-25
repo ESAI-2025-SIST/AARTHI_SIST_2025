@@ -1,0 +1,21 @@
+21.01.24_q2
+
+if __name__ == '__main__':
+    n = int(input().strip())
+    if n%2==0:
+        print("Not Weird")
+    elif n in range(2,5):
+        if n%2==0:
+            print("Not Weird")
+        else:
+            print("Weird")
+    elif n>=6 and n<=20:
+        if n%2==0:
+            print("Weird")
+        else:
+            print("Not Weird")
+    elif n>=21:
+        if n%2==0:
+            print("Not Weird")
+        else:
+            print("Weird")
