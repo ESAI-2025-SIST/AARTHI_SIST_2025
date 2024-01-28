@@ -1,0 +1,4 @@
+23.1.24_q1
+
+def print_full_name(first, last):
+    print("Hello"+" "+first +" " +last + "! You just delved into python.")
